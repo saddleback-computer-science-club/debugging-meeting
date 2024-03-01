@@ -86,7 +86,7 @@ void reverse_vec(vector<int> &vec)
 
     reverse_vec(vec);
 
-    vec.insert(vec.begin(), num);
+    vec.push_back(num);
 }
 
 void print_list(LinkedList* front)
