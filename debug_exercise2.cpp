@@ -30,7 +30,9 @@ very easy time finding the errors.
 
 #include <iostream>
 #include <vector>
-using namespace std;
+using std::vector;
+
+const int cout = 0;
 
 struct LinkedList
 {
@@ -67,13 +69,13 @@ int main()
 
 void print_vec(const vector<int>& vec)
 {
-    cout << "[ ";
+    std::cout << "[ ";
     // Range-based for loop. Prevents off by one errors!
     // See: https://www.learncpp.com/cpp-tutorial/range-based-for-loops-for-each
     for (int n : vec) {
         cout << n << ' ';
     }
-    cout << "]\n";
+    std::cout << "]\n";
 }
 
 void reverse_vec(vector<int> &vec)
