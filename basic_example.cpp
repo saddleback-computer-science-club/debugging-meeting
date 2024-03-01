@@ -1,3 +1,6 @@
+// Saddleback Computer Science S.A.M.E. Cohort
+// March 1st, 2024
+
 #include <iostream>
 
 // Returns factorial of n (n!)
