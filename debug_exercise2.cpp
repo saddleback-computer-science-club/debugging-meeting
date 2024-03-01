@@ -21,7 +21,7 @@ recursive functions!
 The amount of comments has lessened to encourage you to figure out the behaviour
 of functions yourself.
 
-There are a total of XXXXX LOGICAL ERRORS in this program.
+There are a total of 3 LOGICAL ERRORS in this program.
 
 If you can figure out what these algorithms should look like, you should have a
 very easy time finding the errors.
@@ -29,7 +29,7 @@ very easy time finding the errors.
 
 #include <iostream>
 #include <vector>
-using namespace std;
+using std::vector, std::cout;
 
 struct LinkedList
 {
