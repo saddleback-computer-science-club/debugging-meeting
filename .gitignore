@@ -1,0 +1,10 @@
+# C++ Build Files
+*.exe
+*.out
+*.ilk
+*.obj
+*.pdb
+*.pdb
+
+# Ignore .vscode folder to prevent conflicts
+.vscode
