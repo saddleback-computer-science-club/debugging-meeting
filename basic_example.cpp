@@ -5,7 +5,7 @@
 // Examples:
 //  factorial(1) = 1 = 1
 //  factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
-int factorial(unsigned int n)
+unsigned int factorial(unsigned int n)
 {
     if (n <= 1) return 1;
 
